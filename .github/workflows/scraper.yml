@@ -2,7 +2,7 @@ name: Scraper Venezuela
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: '34 22 */2 * *'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
